@@ -9,7 +9,7 @@
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
 	 *
-	 * @package Widiyanata
+	 * @package Aruraharja
 	 */
 	
 	get_header();
@@ -32,9 +32,9 @@
 
             <div>
                 <?php 
-				    if (function_exists("widiyanata_pagination"))
+				    if (function_exists("aruraharja_pagination"))
 					{
-                    widiyanata_pagination();
+                    aruraharja_pagination();
 					}
                 ?>
             </div>

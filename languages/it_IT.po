@@ -48,7 +48,7 @@ msgstr "Errore 404"
 #. Description of the theme
 msgid ""
 "A powerful Bootstrap 5 WordPress Starter Theme with WooCommerce Support. <a "
-"href=\"https://widiyanata.me/category/documentation/\">Documentation</a>. "
+"href=\"https://aruraharja.me/category/documentation/\">Documentation</a>. "
 "This theme gives you full control whatever you do and the full freedom to "
 "design whatever you want. It comes with a wide selection of category, page, "
 "post, author and archive templates as well as sidebar, header, footer and "
@@ -57,8 +57,8 @@ msgid ""
 "required to customize it."
 msgstr ""
 "Un potente Bootstrap Starter Onepage o Multi-Page Theme con supporto "
-"WooCommerce. Esempi: https://widiyanata.me/#examples, Documentazione: https:"
-"//widiyanata.me/category/documentation/. Questo tema ti offre il controllo "
+"WooCommerce. Esempi: https://aruraharja.me/#examples, Documentazione: https:"
+"//aruraharja.me/category/documentation/. Questo tema ti offre il controllo "
 "completo su tutto quello che fai e la libert&agrave; di modificare il layout "
 "a tuo piacimento. Comprende una serie di script utili per le testate e "
 "un&rsquo;ampia selezione di template per le categorie, le pagine, gli "
@@ -68,7 +68,7 @@ msgstr ""
 "personalizzazione minori. Le modifiche pi&ugrave; importanti possono essere "
 "fatte manipolando il codice. Per una completa personalizzazione sono "
 "richieste competenze di CSS, HTML, PHP e JS. Ottieni la tua copia di "
-"Widiyanata!"
+"Aruraharja!"
 
 #: languages/plugin-translations.php:7
 msgid "Accept"
@@ -101,8 +101,8 @@ msgid "Blank without container"
 msgstr "Vuoto senza container"
 
 #. Name of the theme
-msgid "Widiyanata"
-msgstr "Widiyanata"
+msgid "Aruraharja"
+msgstr "Aruraharja"
 
 #: comments.php:100
 msgid "Cancel"
@@ -211,8 +211,8 @@ msgstr ""
 "accuont."
 
 #. URI of the theme
-msgid "https://widiyanata.me/"
-msgstr "https://widiyanata.me/"
+msgid "https://aruraharja.me/"
+msgstr "https://aruraharja.me/"
 
 #. Author URI of the theme
 msgid "https://crftwrk.de"

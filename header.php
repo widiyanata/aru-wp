@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Widiyanata
+ * @package Aruraharja
  */
 
 ?>
@@ -24,7 +24,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class("bg-light"); ?>>
+<body <?php body_class("bg-white"); ?>>
 
     <div id="to-top"></div>
 
@@ -32,7 +32,7 @@
 
         <header id="masthead" class="site-header">
 
-            <nav id="nav-main" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav id="nav-main" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
 
                 <div class="container">
 
@@ -90,7 +90,7 @@
 
                     <div class="offcanvas offcanvas-end" tabindex="-1" data-bs-hideresize="true" id="offcanvas-navbar">
                         <div class="offcanvas-header hover cursor-pointer bg-light text-primary" data-bs-dismiss="offcanvas">
-                            <i class="fas fa-chevron-left"></i> <?php esc_html_e('Close menu', 'widiyanata'); ?>
+                            <i class="fas fa-chevron-left"></i> <?php esc_html_e('Close menu', 'aruraharja'); ?>
                         </div>
                         <div class="offcanvas-body">
                             <!-- Bootstrap 5 Nav Walker Main Menu -->
@@ -100,7 +100,7 @@
                                 'container' => false,
                                 'menu_class' => '',
                                 'fallback_cb' => '__return_false',
-                                'items_wrap' => '<ul id="widiyanata-navbar" class="navbar-nav me-auto %2$s">%3$s</ul>',
+                                'items_wrap' => '<ul id="aruraharja-navbar" class="navbar-nav mx-auto %2$s">%3$s</ul>',
                                 'depth' => 2,
                                 'walker' => new bootstrap_5_wp_nav_menu_walker()
                             ));
@@ -133,4 +133,4 @@
 
         </header><!-- #masthead -->
 
-        <?php widiyanata_ie_alert(); ?>
+        <?php aruraharja_ie_alert(); ?>

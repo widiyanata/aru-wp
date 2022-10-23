@@ -6,7 +6,7 @@
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
 	 *
-	 * @package Widiyanata
+	 * @package Aruraharja
 	 */
 	
 	?>
@@ -79,7 +79,7 @@
 
                     <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-hideresize="true" id="offcanvas-navbar">
                         <div class="offcanvas-header cursor-pointer hover bg-light text-primary" data-bs-dismiss="offcanvas">
-                            <?php esc_html_e('Close menu' , 'widiyanata'); ?> <i class="fas fa-chevron-right"></i>
+                            <?php esc_html_e('Close menu' , 'aruraharja'); ?> <i class="fas fa-chevron-right"></i>
                         </div>
                         <div class="offcanvas-body">
                             <!-- Bootstrap 5 Nav Walker Main Menu -->
@@ -89,7 +89,7 @@
                                     'container' => false,
                                     'menu_class' => '',
                                     'fallback_cb' => '__return_false',
-                                    'items_wrap' => '<ul id="widiyanata-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
+                                    'items_wrap' => '<ul id="aruraharja-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
                                     'depth' => 2,
                                     'walker' => new bootstrap_5_wp_nav_menu_walker()
                                 ));
@@ -142,7 +142,7 @@
             <!-- offcanvas user -->
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-user">
                 <div class="offcanvas-header cursor-pointer hover bg-light text-primary" data-bs-dismiss="offcanvas">
-                    <?php esc_html_e('Close account' , 'widiyanata'); ?> <i class="fas fa-chevron-right"></i>
+                    <?php esc_html_e('Close account' , 'aruraharja'); ?> <i class="fas fa-chevron-right"></i>
                 </div>
                 <div class="offcanvas-body">
                     <div class="my-offcancas-account">
@@ -154,7 +154,7 @@
             <!-- offcanvas cart -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-cart">
                 <div class="offcanvas-header cursor-pointer hover bg-light text-primary" data-bs-dismiss="offcanvas">
-                    <i class="fas fa-chevron-left"></i> <?php esc_html_e('Continue shopping' , 'widiyanata'); ?>
+                    <i class="fas fa-chevron-left"></i> <?php esc_html_e('Continue shopping' , 'aruraharja'); ?>
                 </div>
                 <div class="offcanvas-body p-0">
                     <div class="cart-loader bg-white position-absolute end-0 bottom-0 start-0 d-flex align-items-center justify-content-center">
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div class="cart-list">
-                        <h2 class="p-3"><?php esc_html_e('Cart' , 'widiyanata'); ?></h2>
+                        <h2 class="p-3"><?php esc_html_e('Cart' , 'aruraharja'); ?></h2>
                         <div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
                     </div>
                 </div>
@@ -171,4 +171,4 @@
 
         </header><!-- #masthead -->
 
-        <?php widiyanata_ie_alert(); ?>
+        <?php aruraharja_ie_alert(); ?>

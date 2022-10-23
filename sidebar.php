@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Widiyanata
+ * @package Aruraharja
  */
 
 if (!is_active_sidebar('sidebar-1')) {

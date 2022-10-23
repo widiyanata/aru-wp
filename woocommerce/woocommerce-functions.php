@@ -2,7 +2,7 @@
 /**
  * Woocommerce functions and definitions
  *
- * @package Widiyanata
+ * @package Aruraharja
  */
 
 
@@ -15,9 +15,9 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
 // Woocommerce Lightbox
-add_action( 'after_setup_theme', 'widiyanata' );
+add_action( 'after_setup_theme', 'aruraharja' );
 
-function widiyanata() {
+function aruraharja() {
     add_theme_support( 'wc-product-gallery-zoom' );
     add_theme_support( 'wc-product-gallery-lightbox' );
     add_theme_support( 'wc-product-gallery-slider' );
@@ -87,8 +87,8 @@ endif;
  *
  * @return mixed
  */
-if ( ! function_exists( 'widiyanata_wc_form_field_args' ) ) {
-	function widiyanata_wc_form_field_args( $args, $key, $value = null ) {
+if ( ! function_exists( 'aruraharja_wc_form_field_args' ) ) {
+	function aruraharja_wc_form_field_args( $args, $key, $value = null ) {
 		// Start field type switch case.
 		switch ( $args['type'] ) {
 			/* Targets all select input type elements, except the country and state select input types */

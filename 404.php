@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package Widiyanata
+ * @package Aruraharja
  */
 
 get_header();
@@ -19,12 +19,12 @@ get_header();
 
                     <h1 class="mb-3">404</h1>
                     <!-- Remove this line and place some widgets -->
-                    <p class="alert alert-info mb-4"><?php esc_html_e('Page not found.', 'widiyanata'); ?></p>
+                    <p class="alert alert-info mb-4"><?php esc_html_e('Page not found.', 'aruraharja'); ?></p>
                     <!-- 404 Widget -->
                     <?php if ( is_active_sidebar( '404-page' )) : ?>
                     <div><?php dynamic_sidebar( '404-page' ); ?></div>
                     <?php endif; ?>
-                    <a class="btn btn-outline-primary" href="<?php echo esc_url( home_url() ); ?>" role="button"><?php esc_html_e('Back Home &raquo;', 'widiyanata'); ?></a>
+                    <a class="btn btn-outline-primary" href="<?php echo esc_url( home_url() ); ?>" role="button"><?php esc_html_e('Back Home &raquo;', 'aruraharja'); ?></a>
                 </div>
             </section><!-- .error-404 -->
 

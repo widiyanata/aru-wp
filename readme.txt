@@ -1,4 +1,4 @@
-=== Widiyanata ===
+=== Aruraharja ===
 
 Contributors: craftwerk
 Tags: featured-images, threaded-comments, translation-ready
@@ -10,12 +10,12 @@ Stable tag: 5.0.2.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Widiyanata, Bootstrap 5 WordPress Theme, Copyright 2019 - 2021 Bastian Kreiter.
+Aruraharja, Bootstrap 5 WordPress Theme, Copyright 2019 - 2021 Bastian Kreiter.
 
 
 === Plugin Name ===
 
-A starter theme called Widiyanata.
+A starter theme called Aruraharja.
 
 Contributors: craftwerk
 
@@ -34,14 +34,14 @@ A powerful free Bootstrap 5 WordPress Starter Theme
 
 == Documentation ==
 
-https://widiyanata.me/category/documentation/
+https://aruraharja.me/category/documentation/
 
 
 == Frequently Asked Questions ==
 
 = Does this theme support any plugins? =
 
-Widiyanata includes support for Infinite Scroll in Jetpack.
+Aruraharja includes support for Infinite Scroll in Jetpack.
 
 
 == Credits ==
@@ -58,7 +58,7 @@ Widiyanata includes support for Infinite Scroll in Jetpack.
 
     = 5.0.2.1 - June 05 2021 =
         
-        * [IMPROVEMENT] transition-delay on offcanvas-cart loader https://github.com/craftwerkberlin/widiyanata-5/issues/6 (woocommerce-style.css, woocommerce.js, ajax-add-to-cart.php. Thnx Martin Holzer risingbytes.at)
+        * [IMPROVEMENT] transition-delay on offcanvas-cart loader https://github.com/craftwerkberlin/aruraharja-5/issues/6 (woocommerce-style.css, woocommerce.js, ajax-add-to-cart.php. Thnx Martin Holzer risingbytes.at)
         * [IMPROVEMENT] Tags is a complete pluggable function now (template-tags.php)
         * [IMPROVEMENT] Register comment-list.php is a pluggable function now. You can override file by register comment-list.php and place a copy in child .
         * [IMPROVEMENT] Nav Walker and Menu register are a complete pluggable function now. You can create your own menus and use a different nav walker by override them in child-theme.
@@ -73,7 +73,7 @@ Widiyanata includes support for Infinite Scroll in Jetpack.
 
     = 5.0.1.12 - May 28 2021 =
         
-        * [BUGFIX] Checkout Stripe validation (<li> payment-method.php, thnx John https://widiyanata.me/documentation/woocommerce/#comment-3880)
+        * [BUGFIX] Checkout Stripe validation (<li> payment-method.php, thnx John https://aruraharja.me/documentation/woocommerce/#comment-3880)
         * [UPDATE] Swedish language
         * [UPDATE] Changed WooCommerce comments with Bootstrap custom component (review.php, single-product-reviews.php, woocommerce-style.css)
 
@@ -81,7 +81,7 @@ Widiyanata includes support for Infinite Scroll in Jetpack.
         
         * [REMOVED] Language backup files
         * [NEW] Translation: Svenska (thnx Emil Lindén)
-        * [BUGFIX] Two Factor Authentication support form-login.php. Does not work in offcanvas, must use my-account static page (Thnx cemmos, Github issue https://github.com/craftwerkberlin/widiyanata-5/issues/5)
+        * [BUGFIX] Two Factor Authentication support form-login.php. Does not work in offcanvas, must use my-account static page (Thnx cemmos, Github issue https://github.com/craftwerkberlin/aruraharja-5/issues/5)
         * [IMPROVEMENT] Added .img-thumbnail.rounded-circle to avatar (comment-list.php, all author-*.php)
 
     = 5.0.1.10 - May 16 2021 =
@@ -94,7 +94,7 @@ Widiyanata includes support for Infinite Scroll in Jetpack.
 
     = 5.0.1.8 - May 14 2021 =
         
-        * [BUGFIX] Typo in index.php (thnx Whitetower-lloyd, https://github.com/craftwerkberlin/widiyanata-5/issues/4)
+        * [BUGFIX] Typo in index.php (thnx Whitetower-lloyd, https://github.com/craftwerkberlin/aruraharja-5/issues/4)
         * [UPDATE] Bootstrap 5.0.1
 
     = 5.0.1.7 - May 12 2021 =
@@ -191,7 +191,7 @@ Widiyanata includes support for Infinite Scroll in Jetpack.
     = 5.0.0.3 - February 26 2021 =
     
         * [NEW] Translation: Português do Brasil (thnx Junio Jose)
-        * [BUGFIX] margin undefined Github issue https://github.com/craftwerkberlin/widiyanata-5/issues/1 (thnx djcowan)
+        * [BUGFIX] margin undefined Github issue https://github.com/craftwerkberlin/aruraharja-5/issues/1 (thnx djcowan)
         * [IMPROVEMENT] Reorder CSS load (thnx Daniel Munoz Rey)
 
     = 5.0.0.2 - February 23 2021 =

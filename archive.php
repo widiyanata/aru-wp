@@ -4,7 +4,7 @@
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
 	 *
-	 * @package Widiyanata
+	 * @package Aruraharja
 	 */
 	
 	get_header();
@@ -39,7 +39,7 @@
                             <div class="col">
                                 <div class="card-body">
                                     
-                                    <?php widiyanata_category_badge(); ?>
+                                    <?php aruraharja_category_badge(); ?>
                                     
                                     <!-- Title -->
                                     <h2 class="blog-post-title">
@@ -51,19 +51,19 @@
                                     <?php if ( 'post' === get_post_type() ) : ?>
                                     <small class="text-muted mb-2">
                                         <?php
-									widiyanata_date();
-									widiyanata_author();
-									widiyanata_comments();
-									widiyanata_edit();
+									aruraharja_date();
+									aruraharja_author();
+									aruraharja_comments();
+									aruraharja_edit();
 									?>
                                     </small>
                                     <?php endif; ?>
                                     <!-- Excerpt & Read more -->
                                     <div class="card-text mt-auto">
-                                        <?php the_excerpt(); ?> <a class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read more »', 'widiyanata'); ?></a>
+                                        <?php the_excerpt(); ?> <a class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read more »', 'aruraharja'); ?></a>
                                     </div>
                                     <!-- Tags -->
-                                    <?php widiyanata_tags(); ?>
+                                    <?php aruraharja_tags(); ?>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
 
                     <!-- Pagination -->
                     <div>
-                        <?php widiyanata_pagination(); ?>
+                        <?php aruraharja_pagination(); ?>
                     </div>
 
                 </main><!-- #main -->

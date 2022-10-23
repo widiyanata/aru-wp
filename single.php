@@ -19,17 +19,17 @@ get_header();  ?>
                 <main id="main" class="site-main">
 
                     <header class="entry-header">
-                        <?php widiyanata_post_thumbnail(); ?>
+                        <?php aruraharja_post_thumbnail(); ?>
                         <?php the_post(); ?>
-                        <?php widiyanata_category_badge(); ?>
+                        <?php aruraharja_category_badge(); ?>
                         <?php the_title('<h1>', '</h1>'); ?>
                         <p class="entry-meta">
                             <small class="text-muted">
                                 <?php
-                                widiyanata_date();
-                                _e(' by ', 'widiyanata');
+                                aruraharja_date();
+                                _e(' by ', 'aruraharja');
                                 the_author_posts_link();
-                                widiyanata_comment_count();
+                                aruraharja_comment_count();
                                 ?>
                             </small>
                         </p>
@@ -41,7 +41,7 @@ get_header();  ?>
 
                     <footer class="entry-footer clear-both">
                         <div class="mb-4">
-                            <?php widiyanata_tags(); ?>
+                            <?php aruraharja_tags(); ?>
                         </div>
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-center">

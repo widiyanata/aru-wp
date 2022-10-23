@@ -6,14 +6,123 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Widiyanata
+ * @package Aruraharja
  */
 
 ?>
+<footer id="footer" class="footer mt-auto bg-light text-secondary">
+      <div class="newsletter py-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-4 text-white">
+              <h3>Berlangganan newsletter</h3>
+              <p>
+                Dapatkan informasi terbaru seperti berita, tips dan trik serta
+                penawaran menarik dari Aru Raharja
+              </p>
+            </div>
+            <div class="col-md-4">
+              <form action="" method="post">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" name="name" id="name" placeholder="" aria-label="">
+                  <span class="input-group-btn">
+                    <button class="btn bg-white" type="button" aria-label="">
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<footer>
+      <div class="footer-bottom pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-logo mb-3">
+                <img src="assets/img/aru-logo.png" class="img-fluid" alt="">
+                <b class="text-uppercase fs-5">ARU RAHARJA</b>
+              </div>
+              <p>Wisma Raharja Lt 7, Jl. TB Simatupang, Cilandak Timur, jakarta Selatan, DKI jakarta, 12560, Indonesia</p>
+              
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <h6>Quick Links</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-dark">
+                    Produk
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark">
+                    Tetang kami
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark">
+                    Berita
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark">
+                    Karir
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-    <div class="widiyanata-footer bg-light pt-5 pb-3">
+          <div class="row">
+            <div class="col-md-8">
+              <p class="footer-contact">
+                <span>
+                  <i class="fas fa-phone    "></i> Telp: (021) 781 824
+                </span>
+                <span>
+                  <i class="fas fa-mail-bulk    "></i> Email: pusat@aruraharja.co.id
+                </span>
+              </p>
+            </div>
+            <div class="col-md-4">
+              <p>
+                Ikuti kami: 
+                <a href="#" class="mx-2">
+                  <img src="assets/img/fb.png" alt="">
+                </a>
+                <a href="#" class="mx-2">
+                  <img src="assets/img/ig.png" alt="">
+                </a>
+                <a href="#" class="mx-2">
+                  <img src="assets/img/in.png" alt="">
+                </a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="footer-copyright border-top py-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <span>PT ARU Raharja &copy;&nbsp;<?php echo Date('Y'); ?>. Hak Cipta Dilindungi Undang-Undang .</span>
+              </div>
+              <div class="col-md-6 text-end">
+                <a href="#">Peta Situs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+<footer class="d-none">
+
+
+
+    <div class="aruraharja-footer bg-light pt-5 pb-3">
         <div class="container">
             
             <!-- Top Footer Widget -->
@@ -81,7 +190,7 @@
         </div>
     </div>
     
-    <div class="widiyanata-info bg-light text-muted border-top py-2 text-center">
+    <div class="aruraharja-info bg-light text-muted border-top py-2 text-center">
         <div class="container">
             <small>&copy;&nbsp;<?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></small>    
         </div>

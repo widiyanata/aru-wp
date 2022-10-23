@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Widiyanata functions and definitions
+ * Aruraharja functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Widiyanata
+ * @package Aruraharja
  */
 
 
@@ -43,7 +43,7 @@ add_action('after_setup_theme', 'register_comment_list');
 // Register Comment List END
 
 
-if (!function_exists('widiyanata_setup')) :
+if (!function_exists('aruraharja_setup')) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
      *
@@ -51,15 +51,15 @@ if (!function_exists('widiyanata_setup')) :
      * runs before the init hook. The init hook is too late for some features, such
      * as indicating support for post thumbnails.
      */
-    function widiyanata_setup()
+    function aruraharja_setup()
     {
         /*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Widiyanata, use a find and replace
-		 * to change 'widiyanata' to the name of your theme in all the template files.
+		 * If you're building a theme based on Aruraharja, use a find and replace
+		 * to change 'aruraharja' to the name of your theme in all the template files.
 		 */
-        load_theme_textdomain('widiyanata', get_template_directory() . '/languages');
+        load_theme_textdomain('aruraharja', get_template_directory() . '/languages');
 
         // Add default posts and comments RSS feed links to head.
         add_theme_support('automatic-feed-links');
@@ -97,7 +97,7 @@ if (!function_exists('widiyanata_setup')) :
         add_theme_support(
             'custom-background',
             apply_filters(
-                'widiyanata_custom_background_args',
+                'aruraharja_custom_background_args',
                 array(
                     'default-color' => 'ffffff',
                     'default-image' => '',
@@ -119,7 +119,7 @@ if (!function_exists('widiyanata_setup')) :
         ));
     }
 endif;
-add_action('after_setup_theme', 'widiyanata_setup');
+add_action('after_setup_theme', 'aruraharja_setup');
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -128,14 +128,14 @@ add_action('after_setup_theme', 'widiyanata_setup');
  *
  * @global int $content_width
  */
-function widiyanata_content_width()
+function aruraharja_content_width()
 {
     // This variable is intended to be overruled from themes.
     // Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
     // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-    $GLOBALS['content_width'] = apply_filters('widiyanata_content_width', 640);
+    $GLOBALS['content_width'] = apply_filters('aruraharja_content_width', 640);
 }
-add_action('after_setup_theme', 'widiyanata_content_width', 0);
+add_action('after_setup_theme', 'aruraharja_content_width', 0);
 
 
 
@@ -147,16 +147,16 @@ add_action('after_setup_theme', 'widiyanata_content_width', 0);
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 // Widgets
-if (!function_exists('widiyanata_widgets_init')) :
+if (!function_exists('aruraharja_widgets_init')) :
 
-    function widiyanata_widgets_init()
+    function aruraharja_widgets_init()
     {
 
         // Top Nav
         register_sidebar(array(
-            'name' => esc_html__('Top Nav', 'widiyanata'),
+            'name' => esc_html__('Top Nav', 'aruraharja'),
             'id' => 'top-nav',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="ms-3">',
             'after_widget' => '</div>',
             'before_title' => '<div class="widget-title d-none">',
@@ -166,9 +166,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Top Nav Search
         register_sidebar(array(
-            'name' => esc_html__('Top Nav Search', 'widiyanata'),
+            'name' => esc_html__('Top Nav Search', 'aruraharja'),
             'id' => 'top-nav-search',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="top-nav-search">',
             'after_widget' => '</div>',
             'before_title' => '<div class="widget-title d-none">',
@@ -178,9 +178,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Sidebar
         register_sidebar(array(
-            'name'          => esc_html__('Sidebar', 'widiyanata'),
+            'name'          => esc_html__('Sidebar', 'aruraharja'),
             'id'            => 'sidebar-1',
-            'description'   => esc_html__('Add widgets here.', 'widiyanata'),
+            'description'   => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<section id="%1$s" class="widget %2$s card card-body mb-4 bg-light border-0">',
             'after_widget'  => '</section>',
             'before_title'  => '<h3 class="h5 widget-title text-uppercase card-title border-bottom"><span class="d-inline-block">',
@@ -190,9 +190,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Top Footer
         register_sidebar(array(
-            'name' => esc_html__('Top Footer', 'widiyanata'),
+            'name' => esc_html__('Top Footer', 'aruraharja'),
             'id' => 'top-footer',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="footer_widget mb-5">',
             'after_widget' => '</div>',
             'before_title' => '<h3 class="h5 widget-title text-uppercase">',
@@ -202,9 +202,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Footer 1
         register_sidebar(array(
-            'name' => esc_html__('Footer 1', 'widiyanata'),
+            'name' => esc_html__('Footer 1', 'aruraharja'),
             'id' => 'footer-1',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="footer_widget mb-4">',
             'after_widget' => '</div>',
             'before_title' => '<h3 class="h5 widget-title text-uppercase h4">',
@@ -214,9 +214,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Footer 2
         register_sidebar(array(
-            'name' => esc_html__('Footer 2', 'widiyanata'),
+            'name' => esc_html__('Footer 2', 'aruraharja'),
             'id' => 'footer-2',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="footer_widget mb-4">',
             'after_widget' => '</div>',
             'before_title' => '<h3 class="h5 widget-title text-uppercase h4">',
@@ -226,9 +226,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Footer 3
         register_sidebar(array(
-            'name' => esc_html__('Footer 3', 'widiyanata'),
+            'name' => esc_html__('Footer 3', 'aruraharja'),
             'id' => 'footer-3',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="footer_widget mb-4">',
             'after_widget' => '</div>',
             'before_title' => '<h3 class="h5 widget-title text-uppercase h4">',
@@ -238,9 +238,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // Footer 4
         register_sidebar(array(
-            'name' => esc_html__('Footer 4', 'widiyanata'),
+            'name' => esc_html__('Footer 4', 'aruraharja'),
             'id' => 'footer-4',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="footer_widget mb-4">',
             'after_widget' => '</div>',
             'before_title' => '<h3 class="h5 widget-title text-uppercase h4">',
@@ -250,9 +250,9 @@ if (!function_exists('widiyanata_widgets_init')) :
 
         // 404 Page
         register_sidebar(array(
-            'name' => esc_html__('404 Page', 'widiyanata'),
+            'name' => esc_html__('404 Page', 'aruraharja'),
             'id' => '404-page',
-            'description' => esc_html__('Add widgets here.', 'widiyanata'),
+            'description' => esc_html__('Add widgets here.', 'aruraharja'),
             'before_widget' => '<div class="mb-4">',
             'after_widget' => '</div>',
             'before_title' => '<h1 class="widget-title">',
@@ -261,7 +261,7 @@ if (!function_exists('widiyanata_widgets_init')) :
         // 404 Page End
 
     }
-    add_action('widgets_init', 'widiyanata_widgets_init');
+    add_action('widgets_init', 'aruraharja_widgets_init');
 
 
 endif;
@@ -276,14 +276,14 @@ add_filter('widget_text', 'do_shortcode');
 /**
  * Enqueue scripts and styles.
  */
-function widiyanata_scripts()
+function aruraharja_scripts()
 {
 
     // Bootstrap	
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/lib/bootstrap.min.css');
 
     // Style CSS
-    wp_enqueue_style('widiyanata-style', get_stylesheet_uri());
+    wp_enqueue_style('aruraharja-style', get_stylesheet_uri());
 
     // Fontawesome
     wp_enqueue_style('fontawesome', get_template_directory_uri() . '/css/lib/fontawesome.min.css');
@@ -292,13 +292,13 @@ function widiyanata_scripts()
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/lib/bootstrap.bundle.min.js', array(), '20151215', true);
 
     // Theme JS
-    wp_enqueue_script('widiyanata-script', get_template_directory_uri() . '/js/theme.js', array(), '20151215', true);
+    wp_enqueue_script('aruraharja-script', get_template_directory_uri() . '/js/theme.js', array(), '20151215', true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
 }
-add_action('wp_enqueue_scripts', 'widiyanata_scripts');
+add_action('wp_enqueue_scripts', 'aruraharja_scripts');
 
 
 // Add <link rel=preload> to Fontawesome
@@ -349,7 +349,7 @@ endif;
 
 
 // Pagination Categories
-function widiyanata_pagination($pages = '', $range = 2)
+function aruraharja_pagination($pages = '', $range = 2)
 {
     $showitems = ($range * 2) + 1;
     global $paged;
@@ -434,27 +434,27 @@ endif;
 
 
 // Comment Button
-function widiyanata_comment_form($args)
+function aruraharja_comment_form($args)
 {
     $args['class_submit'] = 'btn btn-outline-primary'; // since WP 4.1    
     return $args;
 }
-add_filter('comment_form_defaults', 'widiyanata_comment_form');
+add_filter('comment_form_defaults', 'aruraharja_comment_form');
 // Comment Button END
 
 
 // Password protected form
-function widiyanata_pw_form()
+function aruraharja_pw_form()
 {
     $output = '
 		  <form action="' . get_option('siteurl') . '/wp-login.php?action=postpass" method="post" class="form-inline">' . "\n"
-        . '<input name="post_password" type="password" size="" class="form-control me-2 my-1" placeholder="' . __('Password', 'widiyanata') . '"/>' . "\n"
-        . '<input type="submit" class="btn btn-outline-primary my-1" name="Submit" value="' . __('Submit', 'widiyanata') . '" />' . "\n"
+        . '<input name="post_password" type="password" size="" class="form-control me-2 my-1" placeholder="' . __('Password', 'aruraharja') . '"/>' . "\n"
+        . '<input type="submit" class="btn btn-outline-primary my-1" name="Submit" value="' . __('Submit', 'aruraharja') . '" />' . "\n"
         . '</p>' . "\n"
         . '</form>' . "\n";
     return $output;
 }
-add_filter("the_password_form", "widiyanata_pw_form");
+add_filter("the_password_form", "aruraharja_pw_form");
 // Password protected form END
 
 

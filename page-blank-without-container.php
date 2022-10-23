@@ -4,7 +4,7 @@
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
 	 *
-	 * @package Widiyanata
+	 * @package Aruraharja
 	 */
 	
 	get_header();
@@ -18,7 +18,7 @@
                 <?php the_post(); ?>
                 <?php the_content(); ?>
                 <?php wp_link_pages( array(
-					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'widiyanata' ),
+					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'aruraharja' ),
 					'after'  => '</div>',
 					) );
 					?>

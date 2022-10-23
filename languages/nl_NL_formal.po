@@ -48,7 +48,7 @@ msgstr "404 pagina"
 #. Description of the theme
 msgid ""
 "A powerful Bootstrap 5 WordPress Starter Theme with WooCommerce Support. <a "
-"href=\"https://widiyanata.me/category/documentation/\">Documentation</a>. "
+"href=\"https://aruraharja.me/category/documentation/\">Documentation</a>. "
 "This theme gives you full control whatever you do and the full freedom to "
 "design whatever you want. It comes with a wide selection of category, page, "
 "post, author and archive templates as well as sidebar, header, footer and "
@@ -57,8 +57,8 @@ msgid ""
 "required to customize it."
 msgstr ""
 "Een krachtig onepage of multi page Bootstrap basisthema met ondersteuning "
-"voor WooCommerce. Voorbeelden: https://widiyanata.me/#examples, Documentatie: "
-"https://widiyanata.me/category/documentation/. Dit thema geeft u volledige "
+"voor WooCommerce. Voorbeelden: https://aruraharja.me/#examples, Documentatie: "
+"https://aruraharja.me/category/documentation/. Dit thema geeft u volledige "
 "controle over wat u ook bouwt en de volledige vrijheid om te ontwerpen wat u "
 "wilt. Het thema bevat enkele nuttige header scripts en een brede selectie "
 "van categorie-, pagina-, bericht-, auteur- en archieftemplates, maar ook "
@@ -66,7 +66,7 @@ msgstr ""
 "zijn slechts enkele kleine customizer instellingen in de backend. Alle "
 "belangrijke instellingen kunnen alleen in de code worden gedaan. Enige CSS, "
 "HTML, PHP en JS vaardigheden zijn vereist om het volledig op maat te maken. "
-"Gebruik Widiyanata zoals u wilt!"
+"Gebruik Aruraharja zoals u wilt!"
 
 #: languages/plugin-translations.php:7
 msgid "Accept"
@@ -99,8 +99,8 @@ msgid "Blank without container"
 msgstr "Blanco zonder container"
 
 #. Name of the theme
-msgid "Widiyanata"
-msgstr "Widiyanata"
+msgid "Aruraharja"
+msgstr "Aruraharja"
 
 #: comments.php:100
 msgid "Cancel"
@@ -208,8 +208,8 @@ msgstr ""
 "wachtwoord en accountgegevens wijzigen."
 
 #. URI of the theme
-msgid "https://widiyanata.me/"
-msgstr "https://widiyanata.me/"
+msgid "https://aruraharja.me/"
+msgstr "https://aruraharja.me/"
 
 #. Author URI of the theme
 msgid "https://crftwrk.de"

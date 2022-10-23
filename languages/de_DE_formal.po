@@ -48,7 +48,7 @@ msgstr "404 Seite"
 #. Description of the theme
 msgid ""
 "A powerful Bootstrap 5 WordPress Starter Theme with WooCommerce Support. <a "
-"href=\"https://widiyanata.me/category/documentation/\">Documentation</a>. "
+"href=\"https://aruraharja.me/category/documentation/\">Documentation</a>. "
 "This theme gives you full control whatever you do and the full freedom to "
 "design whatever you want. It comes with a wide selection of category, page, "
 "post, author and archive templates as well as sidebar, header, footer and "
@@ -88,8 +88,8 @@ msgid "Blank without container"
 msgstr "Blank ohne container"
 
 #. Name of the theme
-msgid "Widiyanata"
-msgstr "Widiyanata"
+msgid "Aruraharja"
+msgstr "Aruraharja"
 
 #: comments.php:100
 msgid "Cancel"
@@ -198,8 +198,8 @@ msgstr ""
 "Rechnungsadressen und Passwort und Kontodetails bearbeiten."
 
 #. URI of the theme
-msgid "https://widiyanata.me/"
-msgstr "https://widiyanata.me/"
+msgid "https://aruraharja.me/"
+msgstr "https://aruraharja.me/"
 
 #. Author URI of the theme
 msgid "https://crftwrk.de"

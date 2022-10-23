@@ -9,7 +9,7 @@
      *
      * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
      *
-     * @package Widiyanata
+     * @package Aruraharja
      */
     
     get_header();
@@ -31,7 +31,7 @@
                         <!-- Title -->
                         <?php the_title('<h1>', '</h1>'); ?>
                         <!-- Featured Image-->
-                        <?php widiyanata_post_thumbnail(); ?>
+                        <?php aruraharja_post_thumbnail(); ?>
                         <!-- .entry-header -->
                     </header>
 
@@ -40,7 +40,7 @@
                         <?php the_content(); ?>
                         <!-- .entry-content -->
                         <?php wp_link_pages( array(
-					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'widiyanata' ),
+					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'aruraharja' ),
 					'after'  => '</div>',
 					) );
 					?>

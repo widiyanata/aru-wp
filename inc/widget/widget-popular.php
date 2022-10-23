@@ -68,7 +68,7 @@ class Popular_Widget extends WP_Widget
           <div class="card-body post-popular">
             <div class="<?php echo $overlay_class; ?>">
               <!-- Category -->
-              <?php widiyanata_category_badge(); ?>
+              <?php aruraharja_category_badge(); ?>
             </div>
             <?php the_title('<h4 class="h6"><a class="underline-0 text-dark" href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h4>'); ?>
           </div>

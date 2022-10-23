@@ -4,7 +4,7 @@
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
 	 *
-	 * @package Widiyanata
+	 * @package Aruraharja
 	 */
 	
 	get_header();
@@ -26,7 +26,7 @@
                         <h1>
                             <?php
 									/* translators: %s: search query. */
-									printf( esc_html__( 'Search Results for: %s', 'widiyanata' ), '<span class="text-secondary">' . get_search_query() . '</span>' );
+									printf( esc_html__( 'Search Results for: %s', 'aruraharja' ), '<span class="text-secondary">' . get_search_query() . '</span>' );
 									?>
                         </h1>
                     </header>
@@ -45,7 +45,7 @@
 					
 					endwhile;
 					
-					widiyanata_pagination();
+					aruraharja_pagination();
 				
 					else :
 					
